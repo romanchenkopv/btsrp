@@ -7,6 +7,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.btn-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.note-toolbar > .btn-group {
+  display: unset;
+}
+
+.btn-group > .btn-group {
+  display: unset;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
